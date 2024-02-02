@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.main {
+  background-color: hsl(216, 50%, 16%);
+  margin: 2.5rem auto;
+  padding: 1.5rem 1.6rem 2rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 380px;
+}
+.main-image {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  max-width: 350px;
+
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  margin: 12px 0px 5px 0px;
+}
+
+.paragraph {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.eth-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.eth-info div{
+    display: flex;
+    align-items: center;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.user-info {
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  align-items: center;
+}
+.user-info img {
+  width: 35px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user-name{
+    color: white;
+}
+.icon{
+    margin-right: 10px;
+}
+.hover:hover{
+    color: hsl(178, 100%, 50%) ;
+}
+.over:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color:hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+
+.eye{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
